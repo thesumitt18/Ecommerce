@@ -16,4 +16,4 @@ sequelize.sync().then(() => {
     console.log("Database & tables created!");
 });
 
-module.exports = { User, Product, Cart,Order,sequelize };
+module.exports = { User, Product, Cart, Order, sequelize };

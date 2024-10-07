@@ -1,5 +1,8 @@
 const { DataTypes } = require('sequelize');
 
+
+//model for user table
+
 module.exports = (sequelize) => {
     const User = sequelize.define('User', {
         name: {

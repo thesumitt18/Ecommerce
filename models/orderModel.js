@@ -1,5 +1,6 @@
 const { DataTypes } = require('sequelize');
 
+//model for order table
 module.exports  = (sequelize) => {
     const Order = sequelize.define('Order', {
         orderId: {

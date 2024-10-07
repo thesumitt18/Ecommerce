@@ -8,6 +8,8 @@ const {
     updateOrderStatus,
 } = require('../controllers/orderManagement');
 
+
+//routes for order
 orderRoutes.post('/order', authenticate, placeOrder);
 orderRoutes.get('/order/:id', authenticate, getOrderById);
 orderRoutes.get('/orders', authenticate, getAllOrders);
