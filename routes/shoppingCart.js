@@ -8,7 +8,7 @@ const {
     removeCartItem
 } = require('../controllers/cartManagement');
 
-
+// routes for shopping cart
 cartRoutes.post('/create', authenticate, addItemToCart);
 cartRoutes.get('/view', authenticate, viewCart);
 cartRoutes.put('/update/:productId', authenticate, updateCartItemQuantity);
